@@ -4,24 +4,24 @@
 node_modules/
 
 platforms/*
-!platforms/android/
+# !platforms/android/
 
-platforms/android/*
-!platforms/android/src/
-!platforms/android/assets/
-platforms/android/assets/www/*
-platforms/android/assets/_where-is-www.txt
-!platforms/android/cordova/
-platforms/android/cordova/*
-!platforms/android/cordova/lib/
-platforms/android/cordova/lib/*
-!platforms/android/cordova/lib/build.js
-!platforms/android/res/
-!platforms/android/libs/
-!platforms/android/build.gradle
-!platforms/android/AndroidManifest.xml
+# platforms/android/*
+# !platforms/android/src/
+# !platforms/android/assets/
+# platforms/android/assets/www/*
+# platforms/android/assets/_where-is-www.txt
+# !platforms/android/cordova/
+# platforms/android/cordova/*
+# !platforms/android/cordova/lib/
+# platforms/android/cordova/lib/*
+# !platforms/android/cordova/lib/build.js
+# !platforms/android/res/
+# !platforms/android/libs/
+# !platforms/android/build.gradle
+# !platforms/android/AndroidManifest.xml
 www/
-platforms/android/res/*
-!platforms/android/res/layout
+# platforms/android/res/*
+# !platforms/android/res/layout
 
 plugins/
